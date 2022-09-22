@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #dvdbox{
+                height: 100px;
+                width: 100px;
+                background: yellow;
+                position: absolute;
+                left: 0px;
+                animation: dvdanim 20s infinite alternate;
+            }
+            #background{
+                background: black;
+                width: 800px;
+                height: 800px;
+                left: 0px;
+                position: absolute;
+                background-image: 
+            }
+            a:link{
+
+            }
+            a:visited{
+
+            }
+            body{
+                animation: anim 2s infinite;
+                
+            }
+            @keyframes anim{
+                0%{ background: red}
+                50%{background:blue}
+                100%{background: red;}
+            }
+            @keyframes dvdanim{
+                0%{top: 100px ;left: 0px;}
+                10%{top: 400px ;left: 700px;}
+                20%{top: 300px ;left: 0px;}
+                30%{top: 600px ;left: 700px;}
+                40%{top: 500px ;left: 0px;}
+                50%{top: 300px ;left: 700px;}
+                60%{top: 100px ;left: 0px;}
+                70%{top: 200px ;left: 700px;}
+                80%{top: 500px ;left: 0px;}
+                90%{top: 100px ;left: 700px;}
+                100%{top: 400px ;left: 0px;}
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div id="background">
+            <img scr="DVD_logo.png" width="100px" height="100px">;
+            <div id="dvdbox"></div>
+        </div>
+    </body>
+</html>
