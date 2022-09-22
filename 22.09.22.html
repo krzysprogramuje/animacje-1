@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #kwad{
+                background: red;
+                width:100px;
+                height:100px;
+                text-align:center;
+                left: 0px;
+                position: absolute;
+
+                transition: 1s;
+            }
+            #kwad2{
+                background: red;
+                width:100px;
+                height:100px;
+                text-align:center;
+                right: 0px;
+                position: absolute;
+
+                transition: 1s;
+                top: 0;
+            }
+            #kwad3{
+                background: red;
+                width:100px;
+                height:100px;
+                text-align:center;
+                
+                bottom: 0px;
+                
+                position: absolute;
+
+                transition: 1s;
+            }
+            #kwad4{
+                background: red;
+                width:100px;
+                height:100px;
+                text-align:center;
+                left: 700px;
+                top: 700px;
+                
+                position: absolute;
+
+                transition: 1s;
+            }
+            #główny:hover #kwad{
+                background: blue;
+                width:200px;
+                height:200px;
+                transform: rotate(-360000000deg);
+                border-radius: 50px 0px 0px 50px;
+                left: 200px;
+            }
+            #główny:hover #kwad2{
+                background: purple;
+                width:200px;
+                height:200px;
+                transform: rotate(-360000000deg);
+                border-radius: 0px 50px 50px 0px;
+                right: 200px;
+                top: 0px;
+            }
+            #główny:hover #kwad3{
+                background: green;
+                width:100px;
+                height:100px;
+                transform: rotate(-360000000deg);
+                border-radius: 50px 50px 50px 50px;
+                right: 0px;
+                top: 600px;
+            }
+            #główny:hover #kwad4{
+                background: green;
+                width:200px;
+                height:200px;
+                transform: rotate(-360000000deg);
+                border-radius: 0px 50px 50px 0px;
+                right: 200px;
+                top: 0px;
+            }
+            #główny{
+                background: black;
+                position: relative;
+                width: 800px;
+                height: 800px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <div id="główny">
+            <div id="kwad">wszyscy razem</div>
+            <div id="kwad2">kręć sie jak <br>snajper</div>
+            <div id="kwad3"></div>
+            <div id="kwad4"></div>
+        </div>
+    </body>
+</html>
